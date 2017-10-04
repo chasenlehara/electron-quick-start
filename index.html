@@ -11,9 +11,10 @@
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
 
+    <script src="./node_modules/steal/steal.js" main="renderer"></script>
     <script>
       // You can also require other files to run in this process
-      require('./renderer.js')
+      // require('./renderer.js')
     </script>
   </body>
 </html>
